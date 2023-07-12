@@ -1,0 +1,137 @@
+body{
+  margin:0;
+  padding: 0;
+  display:flex;
+}
+input{
+  margin-left:0px;
+}
+p{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container {
+  background-color: #fffff0;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newMenu{
+  background: whitesmoke;
+  height:80px;
+  width: 80px;
+  position: absolute;
+  margin: 100px;
+  border-radius: 5px;
+
+}
+.newMenu:active{
+  background: black;
+  height:80px;
+  width: 80px;
+  position: absolute;
+  margin: 100px;
+  border-radius: 5px;
+
+}
+
+.menu{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px whitesmoke;
+  margin:100px;
+  width: auto;
+  height:auto;
+  position:absolute;
+  visibility: hidden;
+  padding:1px;
+}
+
+.firstSelection{
+  visibility: visible;
+  position:absolute;
+  background-color: whitesmoke;
+  height: 90%;
+  width:90%;
+  border:solid black 3px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex; 
+  flex-wrap: wrap;
+}
+.product{
+  border-radius: 30px;
+  border: dotted 2px grey;
+  height:calc((100%/2)-50px);
+  width:calc(100%/4);
+  position: relative;
+  margin:5px;
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.product:hover{
+  opacity:30%;
+}
+#legs{
+  visibility:hidden;
+}
+#desk{
+  visibility:hidden;
+}
+#color_leg{
+  visibility:inherit;
+}
+.menu_part{
+  background-color: rgba(245, 245, 245,0.5);
+  padding:5px;
+  margin:5px;
+  border: solid 1px whitesmoke;
+}
+#table{
+  background-image: url("table.png");
+  
+}
+#chair{
+  background-image: url("chair.png");
+
+}
+#bed{
+  background-image: url("bed.png");
+
+}
+#cuttingBoard{
+  background-image: url("cutting_board.png");
+
+}
+#closet{
+  background-image: url("closet.png");
+
+}
+#decoration{
+  background-image: url("deco.png");
+
+}
+#back{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  border:solid 5px whitesmoke;
+  height:50px;
+  width: 50px;
+  background-color: black;
+  color:whitesmoke;
+  margin-left: 30%;
+}
+#back:hover{
+opacity: 65%;
+}

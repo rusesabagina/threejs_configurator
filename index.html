@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Viewer</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="firstSelection" class="firstSelection">
+        <div id="table" class="product"></div>
+        <div id="chair" class="product"></div>
+        <div id="bed" class="product"></div>
+        <div id="cuttingBoard" class="product"></div>
+        <div id="closet" class="product"></div>
+        <div id="decoration" class="product"></div>
+      </div>
+    </div>
+    <div id='newMenu' class="newMenu">
+
+    </div>
+    <div id="menu" class="menu">
+      <div class="menu_part">
+        <p>SIZE</p>
+      <input type="range" id="scale" min="1" max="10" value="4">
+      </div>
+      <div class="menu_part">
+        <p>COLORS</p>
+        <input type="color" id="color" value="#f97148">
+        <input type="color" id="color_leg" value="#1d5172">
+      </div>
+      <div class="menu_part">
+        <p>SHAPE</p>
+      <select id="desk">
+        <option value="normal">Rectangle</option>
+        <option value="oval">Oval</option>
+      </select>
+      <select id="legs">
+        <option value="normal">Normal</option>
+        <option value="cross">Cross</option>
+        <option value="connected">Connected</option>
+      </select>
+    </div>
+    <div class="menu_part">
+    <div id="back">back</div>
+    </div>
+    </div>
+    
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
